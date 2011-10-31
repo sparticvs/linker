@@ -1,0 +1,7 @@
+base    linker
+author  Charles Timko
+email   charles@pushesp.com
+date    2011-08-01
+name    Linker (v0.3)
+desc    Creates links from minimal information
+url     
