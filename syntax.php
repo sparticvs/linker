@@ -57,7 +57,7 @@ class syntax_plugin_linker extends DokuWiki_Syntax_Plugin
 		return array(
 				'author' => 'Charles Timko',
 				'email'  => 'charles@pushesp.com',
-				'date'   => '2011-08-03',
+				'date'   => '2011-11-07',
 				'name'   => 'Linker Plugin',
 				'desc'   => 'Turns specially crafted tags into links',
 				'url'    => 'n/a',
@@ -88,7 +88,7 @@ class syntax_plugin_linker extends DokuWiki_Syntax_Plugin
 	 **/
 	function connectTo($mode)
 	{
-		$this->Lexer->addSpecialPattern('\[[[:alnum:]]+:[[:alnum:][:punct:]]+\|?[[:alnum:][:punct:] ]*\]',$mode,'plugin_linker');
+		$this->Lexer->addSpecialPattern('\[[[:alnum:]]+:[^\|]+\|?[^\]]*\]',$mode,'plugin_linker');
 	}
 
 	/**
