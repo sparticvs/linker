@@ -5,7 +5,7 @@
  * Syntax: [aaaa:#######] - will be replaced with a specified link match
  * 
  * @license    Beerware x 3
- * @author     Charles Timko <charles@pushesp.com>
+ * @author     Charles Timko <sparticvs@popebp.com>
  **/
  
 if(!defined('DOKU_INC')) define('DOKU_INC',realpath(dirname(__FILE__).'/../../').'/');
